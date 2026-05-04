@@ -5,21 +5,21 @@ pipeline {
         stage('Build') {
             steps {
                 // Run build commands
-                bat 'echo "Building project..."'
+                sh 'echo "Building project..."'
             }
         }
         
         stage('Test') {
             steps {
                 // Run tests
-                bat 'echo "Running tests..."'
+                sh 'echo "Running tests..."'
             }
         }
         
         stage('Deploy') {
             steps {
                 // Deploy step (dummy for now)
-                bat 'echo "Deploying application..."'
+                sh 'echo "Deploying application..."'
             }
         }
     }
