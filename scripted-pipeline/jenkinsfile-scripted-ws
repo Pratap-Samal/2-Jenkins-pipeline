@@ -1,6 +1,6 @@
 node {
   stage('Hello') {
-    bat 'echo "Hello World"'
+    sh 'echo "Hello World"'
     
   }
 }
