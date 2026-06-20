@@ -1,13 +1,13 @@
 node {
     stage('Build') {
         // Run build commands
-        bat 'echo "Building project..."'
+        sh 'echo "Building project..."'
     }
     stage('Test') {
         // Run tests
-        bat 'echo "Running tests..."'
+        sh 'echo "Running tests..."'
     }
     stage('Deploy') {
-        bat 'echo "Deploying application..."'
+        sh 'echo "Deploying application..."'
     }
 }
